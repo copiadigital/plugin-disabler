@@ -1,0 +1,22 @@
+{
+  "name": "copiadigital/plugin-disabler",
+  "type": "wordpress-plugin",
+  "license": "MIT",
+  "description": "Disables plugins based on environment settings",
+  "homepage": "https://github.com/copiadigital/plugin-disabler",
+  "authors": [
+    {
+      "name": "Copia Digital Dev Team",
+      "email": "info@copiadigital.com",
+      "homepage": "https://github.com/copiadigital"
+    }
+  ],
+  "keywords": [
+    "wordpress"
+  ],
+  "require": {
+    "php": "^7.1|^8.0"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
