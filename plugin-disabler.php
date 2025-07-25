@@ -15,7 +15,7 @@ if ( defined( 'DEV_DISABLED_PLUGINS' ) ) {
         require_once( dirname( __FILE__ ) . '/DisablePlugins.php' );
         $utility = new DisablePlugins( $plugins_to_disable );
         
-        //part below is optional but for me it is crucial
-        error_log( 'Locally disabled plugins: ' . var_export( $plugins_to_disable, true ) );
+        // part below is optional but for me it is crucial
+        // error_log( 'Locally disabled plugins: ' . var_export( $plugins_to_disable, true ) );
 	}
 }
